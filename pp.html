@@ -1,0 +1,38 @@
+<html>
+<head>
+  <title>Slide with Link</title>
+  <style>
+    *{
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+    .container{
+      height:500px;
+      width:100%;
+      background-image: url("p1.jpg");
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      animation-name: myani;
+      animation-duration: 50s;
+      animation-timing-function: linear;
+      animation-iteration-count: infinite;
+      
+    }
+@keyframes myani{
+  0%{ background-image: url("p1.jpg");}
+  20%{ background-image: url("p2.jpg");}
+  40%{ background-image: url("p3.jpg");}
+  60%{ background-image: url("p4.jpg");}
+  80%{ background-image: url("p5.jpg");}
+  100%{ background-image: url("p6.jpg");}
+}
+  </style>
+</head>
+<body>
+  <div class="container">
+   
+  </div>
+</body>
+</html>
